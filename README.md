@@ -5,8 +5,7 @@ To install :
 
 ```sh
 wget -O Install.sh https://raw.githubusercontent.com/moriceh/pifm-youtube-webui/master/Install.sh
-chmod +x Install.sh
-./Install.sh
+sh Install.sh
 ```
 
 # How to use
