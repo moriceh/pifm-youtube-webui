@@ -19,6 +19,7 @@ cd /opt/fm_webui
 sudo wget -O fm_transmitter.zip https://github.com/moriceh/pifm-youtube-webui/raw/master/fm_transmitter.zip
 sudo unzip fm_transmitter.zip
 sudo rm fm_transmitter.zip
+sudo make clean
 sudo make
 
 echo "Installing web server."
