@@ -4,7 +4,7 @@ This is a webinterface for fm_transmitter (https://github.com/markondej/fm_trans
 To install : 
 
 ```sh
-wget 
+wget -O Install.sh https://raw.githubusercontent.com/moriceh/pifm-youtube-webui/master/Install.sh
 chmod +x Install.sh
 ./Install.sh
 ```
