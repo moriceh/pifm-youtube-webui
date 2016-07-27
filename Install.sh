@@ -42,6 +42,7 @@ sudo wget -O radio.php https://raw.githubusercontent.com/moriceh/pifm-youtube-we
 sudo wget -O bg.gif https://raw.githubusercontent.com/moriceh/pifm-youtube-webui/master/bg.gif
 sudo wget -O youtube.png https://raw.githubusercontent.com/moriceh/pifm-youtube-webui/master/youtube.png
 sudo wget -O radio.png https://raw.githubusercontent.com/moriceh/pifm-youtube-webui/master/radio.png
+sudo wget -O stop.png https://raw.githubusercontent.com/moriceh/pifm-youtube-webui/master/stop.png
 
 sudo cd /etc
 sudo rm sudoers
