@@ -25,4 +25,4 @@ To change the WebRadio broadcast frequency, it's the same procedure but the file
 sudo nano /opt/fm_webui/radio.sh
 ```
 
-To stop the broadcast, click on the youtube logo on the page.
+To stop the broadcast, click on the stop logo on the page.
