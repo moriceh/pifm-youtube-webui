@@ -37,12 +37,9 @@ rm index.html
 wget -O fm.php https://raw.githubusercontent.com/moriceh/pifm-youtube-webui/master/fm.php
 wget -O killall.php https://raw.githubusercontent.com/moriceh/pifm-youtube-webui/master/killall.php
 wget -O index.html https://raw.githubusercontent.com/moriceh/pifm-youtube-webui/master/index.html
-wget -O radio.html https://raw.githubusercontent.com/moriceh/pifm-youtube-webui/master/radio.html
 wget -O youtube.html https://raw.githubusercontent.com/moriceh/pifm-youtube-webui/master/youtube.html
-wget -O radio.php https://raw.githubusercontent.com/moriceh/pifm-youtube-webui/master/radio.php
 wget -O bg.gif https://raw.githubusercontent.com/moriceh/pifm-youtube-webui/master/bg.gif
 wget -O youtube.png https://raw.githubusercontent.com/moriceh/pifm-youtube-webui/master/youtube.png
-wget -O radio.png https://raw.githubusercontent.com/moriceh/pifm-youtube-webui/master/radio.png
 wget -O stop.png https://raw.githubusercontent.com/moriceh/pifm-youtube-webui/master/stop.png
 
 cd /etc
