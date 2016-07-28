@@ -2,7 +2,7 @@
 exec('sudo killall fm_transmitter');
 exec('sudo killall fm_transmitter');
 exec('sudo killall fm_transmitter');
-exec('/opt/fm_webui/yt.sh ",'.$_POST["url"].'" > /tmp/fm.log &');
+exec('/opt/fm_webui/yt.sh ",'.$_POST["url"].'" > /dev/null &');
 header( "refresh:2;url=index.html" );
 ?>
 
