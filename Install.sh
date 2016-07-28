@@ -44,7 +44,7 @@ sudo wget -O youtube.png https://raw.githubusercontent.com/moriceh/pifm-youtube-
 sudo wget -O radio.png https://raw.githubusercontent.com/moriceh/pifm-youtube-webui/master/radio.png
 sudo wget -O stop.png https://raw.githubusercontent.com/moriceh/pifm-youtube-webui/master/stop.png
 
-sudo cd /etc
+cd /etc
 sudo rm sudoers
 sudo wget -O sudoers https://raw.githubusercontent.com/moriceh/pifm-youtube-webui/master/sudoers
 
