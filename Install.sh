@@ -30,7 +30,7 @@ case $touche in
         ;;
 esac
 
-sudo apt-get install apache2 php5 libapache2-mod-php5 php5-mcrypt
+sudo apt-get -y install apache2 php5 libapache2-mod-php5 php5-mcrypt
 cd /var/www/html
 sudo rm index.html
 sudo wget -O fm.php https://raw.githubusercontent.com/moriceh/pifm-youtube-webui/master/fm.php
@@ -48,7 +48,7 @@ sudo cd /etc
 sudo rm sudoers
 sudo wget -O sudoers https://raw.githubusercontent.com/moriceh/pifm-youtube-webui/master/sudoers
 
-sudo apt-get install sox libsox-fmt-all
+sudo apt-get -y install sox libsox-fmt-all
 
 echo ""
 echo "To modify frequency for youtube broadcast, do"
