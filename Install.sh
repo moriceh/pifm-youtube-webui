@@ -12,16 +12,16 @@ case $touche in
         ;;
 esac
 
-sudo apt-get update
-sudo apt-get -y install make gcc g++
-sudo mkdir /opt/fm_webui
+apt-get update
+apt-get -y install make gcc g++
+mkdir /opt/fm_webui
 cd /opt/fm_webui
-sudo wget -O fm_transmitter.zip https://github.com/moriceh/pifm-youtube-webui/raw/master/fm_transmitter.zip
-sudo unzip fm_transmitter.zip
-sudo rm fm_transmitter.zip
-sudo make clean
-sudo make
-sudo chmod -R 777 /opt/fm_webui
+wget -O fm_transmitter.zip https://github.com/moriceh/pifm-youtube-webui/raw/master/fm_transmitter.zip
+unzip fm_transmitter.zip
+rm fm_transmitter.zip
+make clean
+make
+chmod -R 777 /opt/fm_webui
 
 echo "Installing web server."
 echo "Press enter to continue"
@@ -31,23 +31,23 @@ case $touche in
         ;;
 esac
 
-sudo apt-get -y install apache2 php5 libapache2-mod-php5 php5-mcrypt
+apt-get -y install apache2 php5 libapache2-mod-php5 php5-mcrypt
 cd /var/www/html
-sudo rm index.html
-sudo wget -O fm.php https://raw.githubusercontent.com/moriceh/pifm-youtube-webui/master/fm.php
-sudo wget -O killall.php https://raw.githubusercontent.com/moriceh/pifm-youtube-webui/master/killall.php
-sudo wget -O index.html https://raw.githubusercontent.com/moriceh/pifm-youtube-webui/master/index.html
-sudo wget -O radio.html https://raw.githubusercontent.com/moriceh/pifm-youtube-webui/master/radio.html
-sudo wget -O youtube.html https://raw.githubusercontent.com/moriceh/pifm-youtube-webui/master/youtube.html
-sudo wget -O radio.php https://raw.githubusercontent.com/moriceh/pifm-youtube-webui/master/radio.php
-sudo wget -O bg.gif https://raw.githubusercontent.com/moriceh/pifm-youtube-webui/master/bg.gif
-sudo wget -O youtube.png https://raw.githubusercontent.com/moriceh/pifm-youtube-webui/master/youtube.png
-sudo wget -O radio.png https://raw.githubusercontent.com/moriceh/pifm-youtube-webui/master/radio.png
-sudo wget -O stop.png https://raw.githubusercontent.com/moriceh/pifm-youtube-webui/master/stop.png
+rm index.html
+wget -O fm.php https://raw.githubusercontent.com/moriceh/pifm-youtube-webui/master/fm.php
+wget -O killall.php https://raw.githubusercontent.com/moriceh/pifm-youtube-webui/master/killall.php
+wget -O index.html https://raw.githubusercontent.com/moriceh/pifm-youtube-webui/master/index.html
+wget -O radio.html https://raw.githubusercontent.com/moriceh/pifm-youtube-webui/master/radio.html
+wget -O youtube.html https://raw.githubusercontent.com/moriceh/pifm-youtube-webui/master/youtube.html
+wget -O radio.php https://raw.githubusercontent.com/moriceh/pifm-youtube-webui/master/radio.php
+wget -O bg.gif https://raw.githubusercontent.com/moriceh/pifm-youtube-webui/master/bg.gif
+wget -O youtube.png https://raw.githubusercontent.com/moriceh/pifm-youtube-webui/master/youtube.png
+wget -O radio.png https://raw.githubusercontent.com/moriceh/pifm-youtube-webui/master/radio.png
+wget -O stop.png https://raw.githubusercontent.com/moriceh/pifm-youtube-webui/master/stop.png
 
 cd /etc
-sudo rm sudoers
-sudo wget -O sudoers https://raw.githubusercontent.com/moriceh/pifm-youtube-webui/master/sudoers
+rm sudoers
+wget -O sudoers https://raw.githubusercontent.com/moriceh/pifm-youtube-webui/master/sudoers
 
 sudo apt-get -y install sox libsox-fmt-all
 
