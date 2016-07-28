@@ -9,7 +9,7 @@ curl https://raw.githubusercontent.com/moriceh/pifm-youtube-webui/master/Install
 
 # How to use
 
-To play a music, go tu your PI's URL, choose between YouTube and WebRadio.
+To play a music, go to your PI's URL, choose between YouTube and WebRadio.
 If you choose YouTube, put the URL of the youtube video in the text box. Click Submit and the music will start to play on 87.5 FM.
 If you choose WebRadio, put the URL of the radio stream (It only supports mp3 streams) and click Submit. The music will start to play on 87.5 FM.
 
