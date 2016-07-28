@@ -21,6 +21,7 @@ sudo unzip fm_transmitter.zip
 sudo rm fm_transmitter.zip
 sudo make clean
 sudo make
+sudo chmod -R 777 /opt/fm_webui
 
 echo "Installing web server."
 echo "Press enter to continue"
