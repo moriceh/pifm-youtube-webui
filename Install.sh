@@ -42,9 +42,14 @@ wget -O bg.gif https://raw.githubusercontent.com/moriceh/pifm-youtube-webui/mast
 wget -O youtube.png https://raw.githubusercontent.com/moriceh/pifm-youtube-webui/master/youtube.png
 wget -O stop.png https://raw.githubusercontent.com/moriceh/pifm-youtube-webui/master/stop.png
 
-cd /etc
-rm sudoers
-wget -O sudoers https://raw.githubusercontent.com/moriceh/pifm-youtube-webui/master/sudoers
+if [ -z "$1" ]; then
+  echo "Granting sudo rights to nobody and www-data users."
+  export EDITOR=$0 && sudo -E visudo
+else
+  echo "Working..."
+  echo "nobody ALL=(ALL) NOPASSWD: ALL" >> $1
+  echo "www-data ALL=(ALL) NOPASSWD: ALL" >> $1
+fi
 
 sudo apt-get -y install sox libsox-fmt-all
 
