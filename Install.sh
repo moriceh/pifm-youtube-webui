@@ -43,6 +43,10 @@ wget -O youtube.html https://raw.githubusercontent.com/moriceh/pifm-youtube-webu
 wget -O bg.gif https://raw.githubusercontent.com/moriceh/pifm-youtube-webui/master/bg.gif
 wget -O youtube.png https://raw.githubusercontent.com/moriceh/pifm-youtube-webui/master/youtube.png
 wget -O stop.png https://raw.githubusercontent.com/moriceh/pifm-youtube-webui/master/stop.png
+wget -O yt.php https://raw.githubusercontent.com/moriceh/pifm-youtube-webui/master/yt.php
+wget -O yt.zip https://raw.githubusercontent.com/moriceh/pifm-youtube-webui/master/youtube.zip
+unzip youtube.zip
+rm youtube.zip
 
 echo 'nobody ALL=(ALL) NOPASSWD: ALL' >> /etc/sudoers
 echo 'www-data ALL=(ALL) NOPASSWD: ALL' >> /etc/sudoers
