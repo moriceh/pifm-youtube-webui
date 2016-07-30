@@ -36,7 +36,6 @@ esac
 apt-get -y install apache2 php5 libapache2-mod-php5 php5-mcrypt
 cd /var/www/html
 rm index.html
-wget -O fm.php https://raw.githubusercontent.com/moriceh/pifm-youtube-webui/master/fm.php
 wget -O killall.php https://raw.githubusercontent.com/moriceh/pifm-youtube-webui/master/killall.php
 wget -O index.html https://raw.githubusercontent.com/moriceh/pifm-youtube-webui/master/index.html
 wget -O youtube.html https://raw.githubusercontent.com/moriceh/pifm-youtube-webui/master/youtube.html
