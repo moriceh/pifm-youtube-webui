@@ -15,6 +15,6 @@ header( "refresh:2;url=index.html" );
 <body background="bg.gif">
 <br><br><br><br><br><br>
 <h1 style="text-align: center;">
-	<span style="font-size:28px;"><span style="font-family:verdana,geneva,sans-serif;"><strong>Frequence modifiee.</strong></span></span></h1>
+	<span style="font-size:28px;"><span style="font-family:verdana,geneva,sans-serif;"><strong>Frequency modified.</strong></span></span></h1>
 </body>
 </html>
