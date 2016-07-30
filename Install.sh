@@ -22,7 +22,7 @@ unzip fm_transmitter.zip
 rm fm_transmitter.zip
 make clean
 make
-chmod +x /opt/fm_webui/yt.sh
+chmod +x /opt/fm_webui/*.sh
 chmod -R 777 /opt/fm_webui
 
 echo "Installing web server."
