@@ -53,13 +53,7 @@ echo 'www-data ALL=(ALL) NOPASSWD: ALL' >> /etc/sudoers
 sudo apt-get -y install sox libsox-fmt-all
 
 echo ""
-echo "To modify frequency for youtube broadcast, do"
-echo "sudo nano /opt/fm_webui/yt.sh"
-echo "and modify at the start of the script the freq=87.5 to the frequency you want."
 echo ""
-echo "To modify frequency for webradio broadcast, do"
-echo "sudo nano /opt/fm_webui/radio.sh"
-echo "and modify at the start of the script the freq=87.5 to the frequency you want."
 echo ""
 echo "Install finished. Press a key to exit."
 read touche
