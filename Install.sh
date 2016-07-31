@@ -44,6 +44,7 @@ wget -O youtube.png https://raw.githubusercontent.com/moriceh/pifm-youtube-webui
 wget -O stop.png https://raw.githubusercontent.com/moriceh/pifm-youtube-webui/master/stop.png
 wget -O yt.php https://raw.githubusercontent.com/moriceh/pifm-youtube-webui/master/yt.php
 wget -O yt.zip https://raw.githubusercontent.com/moriceh/pifm-youtube-webui/master/youtube.zip
+wget -O freq.php https://raw.githubusercontent.com/moriceh/pifm-youtube-webui/master/freq.php
 unzip yt.zip
 rm yt.zip
 
