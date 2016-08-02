@@ -45,6 +45,9 @@ wget -O stop.png https://raw.githubusercontent.com/moriceh/pifm-youtube-webui/ma
 wget -O yt.php https://raw.githubusercontent.com/moriceh/pifm-youtube-webui/master/yt.php
 wget -O yt.zip https://raw.githubusercontent.com/moriceh/pifm-youtube-webui/master/youtube.zip
 wget -O freq.php https://raw.githubusercontent.com/moriceh/pifm-youtube-webui/master/freq.php
+wget -O fm.php https://raw.githubusercontent.com/moriceh/pifm-youtube-webui/master/fm.php
+wget -O radio.html https://raw.githubusercontent.com/moriceh/pifm-youtube-webui/master/radio.html
+wget -O radio.png https://raw.githubusercontent.com/moriceh/pifm-youtube-webui/master/radio.png
 unzip yt.zip
 rm yt.zip
 
