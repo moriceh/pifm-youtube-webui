@@ -38,7 +38,6 @@ cd /var/www/html
 rm index.html
 wget -O killall.php https://raw.githubusercontent.com/moriceh/pifm-youtube-webui/master/killall.php
 wget -O index.html https://raw.githubusercontent.com/moriceh/pifm-youtube-webui/master/index.html
-wget -O youtube.html https://raw.githubusercontent.com/moriceh/pifm-youtube-webui/master/youtube.html
 wget -O bg.gif https://raw.githubusercontent.com/moriceh/pifm-youtube-webui/master/bg.gif
 wget -O youtube.png https://raw.githubusercontent.com/moriceh/pifm-youtube-webui/master/youtube.png
 wget -O stop.png https://raw.githubusercontent.com/moriceh/pifm-youtube-webui/master/stop.png
