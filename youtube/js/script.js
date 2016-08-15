@@ -65,10 +65,10 @@ function getOutput(item){
 
   var getoutput = '<div class="row results-row">' +
   '<div class="col-md-4">' +
-  '<a href="../yt.php?url=http://www.youtube.com/watch?v='+videoId+'"><img src="'+thumbnail+'"></a>' +
+  '<a href="../yt.html"><img src="'+thumbnail+'"></a>' +
   '</div>' +
   '<div class="col-md-8">' +
-  '<h3><a href="../yt.php?url=http://www.youtube.com/watch?v='+videoId+'">'+title+'</a></h3>' +
+  '<h3><a href="../yt.html">'+title+'</a></h3>' +
   '<p class="channel-meta">By<i> '+channelTitle+'</i> on '+publishedAt+'</p>'+
   '<p>'+description+'</p>' +
   '</div>' + 
