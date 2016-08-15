@@ -1,0 +1,80 @@
+body {
+  font-family: 'PT Sans', sans-serif;
+  font-size: 17px;
+  color: #615E5E;
+}
+
+a{
+  text-decoration: none !important;
+}
+
+.logo-row {
+  margin-top: 30px;
+}
+
+.search-row {
+  margin-top: 30px;
+}
+
+hr {
+  border-top: 1px solid #E2DFDF;
+}
+
+h2 {
+  font-family: 'Pacifico', cursive;
+  color: #444;
+  text-align: center;
+  font-size: 2em;
+}
+
+form {
+  text-align: center;
+}
+
+#input-search {
+  width: 40%;
+  margin:0 auto;
+  padding: 16px 7px;
+  display: inline-block;
+  font-size: 16px;
+  letter-spacing: 1px;
+  text-align:center;
+}
+
+.results-row {
+  margin-top: 30px;
+}
+
+#results {
+  padding: 30px;
+}
+
+#results img {
+  width: 100%;
+}
+
+#results h3 {
+  font-size: 1.5em;
+  color: #444;
+}
+
+.channel-meta {
+  font-size: 15px;
+}
+
+.channel-meta i {
+  color:#444;
+}
+
+#buttons {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+#prev-button {
+  margin-right: 5px;
+}
+
+.fa-heart {
+  color: red;
+}
